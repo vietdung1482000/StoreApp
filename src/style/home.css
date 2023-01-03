@@ -1,0 +1,129 @@
+.hero_section {
+    background: var(--hero-bg);
+}
+
+.hero_content h2{
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.hero_content p {
+    color: var(--primary-color);
+    line-height: 28px;
+}
+
+.hero_section p:nth-child(1){
+    font-weight: 500;
+}
+
+.btn_buy {
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+.btn_buy a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn_buy a:hover{
+    color: #fff;
+}
+
+.hero_content{
+    padding-top: 45px;
+}
+
+.slick-prev, .slick-next{
+    display: none !important;
+}
+
+.timer_count {
+    background: var(--primary-color);
+    height: 300px;
+}
+
+.timer_count img{
+    width: 70% !important;
+    height: 70% !important;
+}
+
+.store_btn {
+    background: var(--primary-color);
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.store_btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.store_btn a:hover{
+    color: #63cdda;
+}
+
+
+@media only screen and (max-width: 992px){
+    .hero_content h2{
+        font-size: 2rem;
+    }
+
+    .section_title{
+        font-size: 1.7rem;
+    }
+
+    .counter__img{
+        display: none;
+    }
+
+    .clock_top-content{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .clock_top-content h4{
+        font-size: 0.9rem !important;
+    }
+
+    .clock_top-content h3{
+        font-size: 1rem !important;
+    }
+
+    .count_down-col {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .hero_content h2{
+        font-size: 1.6rem;
+    }
+
+    .hero_content p{
+        font-size: 0.9rem;
+    }
+    .btn_buy {
+        font-size: 0.9rem;
+    }
+
+    .section_title {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .hero_content{
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+}
