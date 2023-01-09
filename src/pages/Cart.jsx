@@ -48,13 +48,15 @@ const Cart = () => {
 
                         <Col lg='3'>
                             <div>
-                                <h6>Subtotal</h6>
-                                <span>${totalAmount}</span>
+                                <h6 className='d-flex align-items-center justify-content-between'>
+                                    Subtotal
+                                    <span className='fs-4 fw-bold'>${totalAmount}</span>
+                                </h6>
                             </div>
-                            <p>thuế và phí vận chuyển sẽ được tính khi thanh toán</p>
-                            <motion.button whileTap={{ scale: 1.2 }} className='buy_btn store_btn'><Link to="/shop">Continue Shopping</Link></motion.button>
+                            <p className='fs-6 mt-2'>thuế và phí vận chuyển sẽ được tính khi thanh toán</p>
 
-                            <motion.button whileTap={{ scale: 1.2 }} className='buy_btn store_btn'><Link to="/checkout">Checkout</Link></motion.button>
+                            <motion.button whileTap={{ scale: 1.2 }} className='buy_check_btn w-100 mt-3'><Link to="/checkout">Checkout</Link></motion.button>
+                            <motion.button whileTap={{ scale: 1.2 }} className='buy_check_btn w-100 mt-3'><Link to="/shop">Continue Shopping</Link></motion.button>
                         </Col>
                     </Row>
                 </Container>

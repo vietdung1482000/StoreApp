@@ -11,3 +11,20 @@ td i {
 td, th {
     color: var(--primary-color);
 }
+
+
+.buy_check_btn {
+    background: var(--primary-color);
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.buy_check_btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.buy_check_btn a:hover{
+    color: #63cdda;
+}

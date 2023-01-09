@@ -8,7 +8,6 @@ import ProductsList from '../components/UI/ProductsList'
 
 const Shop = () => {
 
-
     const [productData, setProductData] = useState(products)
 
     const handleFilter = (e) => {
@@ -48,7 +47,9 @@ const Shop = () => {
             );
             setProductData(filteredProducts)
         }
+
     }
+
 
     const handleSearch = (e) => {
         const searchItem = e.target.value
